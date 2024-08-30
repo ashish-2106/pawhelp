@@ -1,2 +1,3 @@
 # Ignore virtual environment directory
 pet_bot/vnev/
+pet_bot/.env

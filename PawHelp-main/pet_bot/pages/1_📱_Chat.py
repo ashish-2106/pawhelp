@@ -1,11 +1,11 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-import streamlit as st 
+import streamlit as st  # type: ignore
 import os
 import google.generativeai as genai
 
-genai.configure(api_key=os.getenv("API_KEY"))
+genai.configure('AIzaSyCxeMcDF7cD9LDs5zaMsN7H12F_TpE7hS0')
 
 model = genai.GenerativeModel("gemini-pro")  
 def getGemini_response(question):
