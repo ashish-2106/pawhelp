@@ -1,0 +1,13 @@
+prefix=/Users/atharvawle/Desktop/GDSC HACK/vnev
+exec_prefix=/Users/atharvawle/Desktop/GDSC HACK/vnev
+libdir=/Users/atharvawle/Desktop/GDSC HACK/vnev/lib
+sharedlibdir=/Users/atharvawle/Desktop/GDSC HACK/vnev/lib
+includedir=/Users/atharvawle/Desktop/GDSC HACK/vnev/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
