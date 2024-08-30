@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawHelp</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Rubik+Doodle+Shadow&display=swap"
+        rel="stylesheet">
+
+    <!-- bootsrtap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="icon" href="/favicon_io (1)/android-chrome-512x512.png">
+</head>
+
+<body>
+
+    <!-- <div class="preloader">
+        <h3>Team</h3>
+        <h3>Coding_Space</h3>
+       
+    </div> -->
+
+
+    <div class="main">
+        <div class="page-1">
+            <!-- <div class="cursor">
+                <p>Chat BOT</p>
+            </div> -->
+            <video autoplay muted loop src="assets/Dogs_video.mp4"></video>
+            <!-- <img src="assets/head.jpg" alt=""> -->
+            <div class="page1-content">
+                <nav >
+                    <h3 style="font-weight: 1000; color: rgb(255, 3, 3); ">REDINNOVATORS</h3>
+                    <!-- <h4>Menu</h4> -->
+                    <!-- <button  type="button" class="btn btn-outline-secondary"><a href="">Find Nearest Help</a></button> -->
+                    <div class="dropdown">
+                        <button class="dropbtn" style="font-weight: bold;">Vision</button>
+                        <div class="dropdown-content">
+                            <a href="#">Adoption</a>
+                            <a href="#">Pet Food</a>
+                            <a href="#">Pet Grooming</a>
+                            <a href="#">Other Services</a>
+                        </div>
+                    </div>
+
+                </nav>
+                
+                <h1>
+                    <span style="color: rgb(255, 255, 255); font-family: Merriweather;">P</span><span style="color: rgb(255, 255, 255); font-family: Merriweather;">a</span><span style="color: rgb(255, 255, 255); font-family: Merriweather;">w</span><span style="color: red; font-family: Merriweather;">H</span><span style="color: red; font-family: Merriweather;">e</span><span style="color: red; font-family: Merriweather;">l</span><span style="color: red; font-family: Merriweather;">p</span>
+                </h1>
+
+
+            </div>
+
+        </div>
+
+        <div class="page-2">
+<br><br>
+            <div class="page2-upper">
+                <div class="about-SOS">Saving one animal won’t change the world, but it will change the world for that one animal.</div>
+            </div>
+            <hr>
+
+            <br> <br> <br>
+        </div>
+
+        <!-- Forms -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <form action="index.html" method="post">
+                    <h1 style="font-weight: bold; font-size: x-large; font-family: Merriweather;">Report an Accident</h1>
+                    <br>
+                    <fieldset>
+
+                        <legend style="font-family: Merriweather;"><span class="number" >1</span> Your Info</legend>
+
+                        <label for="name" style="font-family: Merriweather;">Name:</label>
+                        <input type="text" id="name" name="user_name">
+
+                        <label for="name" style="font-family: Merriweather;">Conatct</label>
+                        <input type="text" id="name" name="contact">
+
+                        <label for="name" style="font-family: Merriweather;">Location</label>
+                        <input type="text" id="name" name="location">
+
+                    </fieldset>
+                    <fieldset>
+
+                    </fieldset>
+
+                    <div class="Neon Neon-theme-dragdropbox">
+                        <input
+                            style="z-index: 999; opacity: 0; width: 120px; height: 200px; position: absolute; right: 0px; left: 0px; margin-right: auto; margin-left: auto;"
+                            name="files[]" id="filer_input2" multiple="multiple" type="file">
+                        <div class="Neon-input-dragDrop">
+                            <div class="Neon-input-inner">
+                                <div class="Neon-input-icon"><i class="fa fa-file-image-o"></i></div>
+                                <div class="Neon-input-text" style="font-family: Merriweather;">
+                                    <h3>Photo of injured animal</h3> <span
+                                        style="display:inline-block; margin: 15px 0">or</span>
+                                </div><a class="Neon-input-choose-btn blue" style="font-family: Merriweather;">Browse Files</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <a href="thankyou.html" target="_blank"><button type="button" style="font-weight: 900; color: rgb(0, 0, 0); font-family: Merriweather;">Submit</button></a>
+
+
+
+                </form>
+            </div>
+        </div>
+
+
+
+        <!-- Forms -->
+
+
+        <section class="dark">
+            <div class="container py-4">
+                <h1 class="h1 text-center" id="pageHeaderTitle" style="font-weight: 900;">Quick health assistance for your pets</h1>
+
+                <article class="postcard dark blue">
+                    <a class="postcard__img_link" href="#">
+                        <img class="postcard__img" src="assets/Ai_chatbot.jpg" alt="Image Title" />
+                    </a>
+                    <div class="postcard__text">
+                        <h1 class="postcard__title blue"><a href="#">Talk to your AI chatbot</a></h1>
+
+                        <div class="postcard__bar"></div>
+                        <div class="postcard__preview-txt">We have developed an innovative Chatbot aimed at enhancing
+                            pet health assistance. This groundbreaking bot incorporates user-friendly features such as
+                            prompts and image upload capabilities, enabling pet owners to receive tailored
+                            recommendations and remedies for their beloved companions. By leveraging advanced
+                            technology, we aim to provide comprehensive support and guidance to ensure the well-being of
+                            pets everywhere.</div>
+
+                        <div class="wrap">
+                            <a href="https://gdcs-hackathon-exkjegygzvpmbz5rs56wex.streamlit.app/" target="_blank">
+                                <button class="button">Pet Bot</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </article>
+                <br><br><br>
+                <article class="postcard dark red">
+                    <a class="postcard__img_link" href="#">
+                        <img class="postcard__img" src="assets/Vet.jpg" alt="Image Title" />
+                    </a>
+                    <div class="postcard__text">
+                        <h1 class="postcard__title red"><a href="#">Does your pet need a vet?</a></h1>
+
+                        <div class="postcard__bar"></div>
+                        <div class="postcard__preview-txt">By utilizing inputs such as age, weight, temperature, and
+                            clinic visit history, this system offers pet parents predictive insights into their pet's
+                            health needs. If necessary, it provides addresses of nearby clinics, enabling prompt
+                            veterinary care. This innovative approach not only enhances pet healthcare management but
+                            also promotes proactive and responsible pet ownership, ultimately contributing to better pet
+                            wellness outcomes.</div>
+                        <div class="wrap">
+                            <a href="https://https---appcom-nishantwanjari-model-ftxo8prwj8yg2cnsxuv6c7.streamlit.app/" target="_blank">
+                                <button class="button">Check</button>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- TATA -->
+                <br><br><br>
+                <section>
+                    <section class="flex items-center font-poppins  ">
+                        <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+                            <div class="flex flex-wrap ">
+                                <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+                                    <div class="relative lg:max-w-md">
+                                        <img src="assets/ratan.jpg" alt="aboutimage"
+                                            class="relative z-10 object-cover w-full rounded h-96">
+
+                                    </div>
+                                </div>
+                                <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
+                                    <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
+                                        <span class="text-sm text-gray-600 uppercase dark:text-gray-400"></span>
+                                        <h1
+                                            class="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-500">
+                                            Our Inspiration
+                                        </h1>
+                                    </div>
+                                    
+                                    <p class="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
+                                        Ratan Tata, the distinguished Indian industrialist, is equally renowned for his extensive philanthropic endeavors. Throughout his career, Tata has demonstrated a deep commitment to social causes and community welfare. The Tata Trusts, the philanthropic entities associated with the Tata Group, play a pivotal role in supporting initiatives related to education, healthcare, and rural development. Under Ratan Tata's guidance, these trusts have funded numerous projects, including the establishment of educational institutions, medical facilities, and initiatives aimed at improving the quality of life for marginalized communities. 
+
+                                    </p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <!-- TATA -->
+                <div class="page-5">
+                    <div class="page5-top">
+                        <h2>NGO's associated with us.</h2>
+                    </div>
+
+
+                    <div class="scroller-container">
+                        <div class="scroller"><img class="scroller-img" src="assets/Ngo1.jpeg" /><img
+                                class="scroller-img" src="assets/Ngo2.png" /><img class="scroller-img"
+                                src="assets/Ngo3.png" /><img class="scroller-img" src="assets/Ngo4.jpeg" /><img
+                                class="scroller-img" src="assets/NGo5.png" /><img class="scroller-img"
+                                src="assets/Ngo6.png" /><img class="scroller-img" src="assets/Ngo7.png" /><img
+                                class="scroller-img" src="assets/Ngo8.png" />
+                            <img class="scroller-img" src="assets/Ngo1.jpeg" /><img class="scroller-img"
+                                src="assets/Ngo2.png" /><img class="scroller-img" src="assets/Ngo3.png" /><img
+                                class="scroller-img" src="assets/Ngo4.jpeg" /><img class="scroller-img"
+                                src="assets/NGo5.png" /><img class="scroller-img" src="assets/Ngo6.png" /><img
+                                class="scroller-img" src="assets/Ngo7.png" /><img class="scroller-img"
+                                src="assets/Ngo8.png" />
+                            <img class="scroller-img" src="assets/Ngo1.jpeg" /><img class="scroller-img"
+                                src="assets/Ngo2.png" /><img class="scroller-img" src="assets/Ngo3.png" /><img
+                                class="scroller-img" src="assets/Ngo4.jpeg" /><img class="scroller-img"
+                                src="assets/NGo5.png" /><img class="scroller-img" src="assets/Ngo6.png" /><img
+                                class="scroller-img" src="assets/Ngo7.png" /><img class="scroller-img"
+                                src="assets/Ngo8.png" />
+                            <!--double the list so there is a copy of each icon in place when the animation ends-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="waves">
+                    <div class="wave" id="wave1"></div>
+                    <div class="wave" id="wave2"></div>
+                    <div class="wave" id="wave3"></div>
+                    <div class="wave" id="wave4"></div>
+                </div>
+                <ul class="social_icon">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+                <p>&copy 2024 REDINNOVATORS | All Rights Reserved</p>
+            </footer>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+            <!-- Footer -->
+    </div>
+
+    <!-- JAVASCRIPT LINKS -->
+    <!-- locomotive -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- GSAB -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- SCROLLTRIGGER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById("dropdownDividerButton");
+            const dropdown = document.getElementById("dropdownDivider");
+
+            button.addEventListener("click", function () {
+                dropdown.classList.toggle("hidden");
+            });
+        });
+    </script>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- JAVASCRIPT LINKS -->
+</body>
+
+</html>
